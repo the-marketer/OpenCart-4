@@ -14,7 +14,7 @@ if (!defined('MKTR_ROOT')) {
 
 if (!defined('MKTR_LIB')) {
     if (VERSION >= "4") {
-        define('MKTR_LIB', MKTR_ROOT . '/extension/mktr/' . basename(DIR_SYSTEM) . '/library/mktr/');
+        define('MKTR_LIB', MKTR_ROOT . 'extension/mktr/' . basename(DIR_SYSTEM) . '/library/mktr/');
     } else {
         define('MKTR_LIB', dirname(DIR_SYSTEM) . '/' . basename(DIR_SYSTEM) . '/library/mktr/');
     }
